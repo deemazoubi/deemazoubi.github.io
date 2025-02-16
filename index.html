@@ -1,22 +1,83 @@
-<html>
-<!-- root of DOM -->
-  <head>
-    <title>D R E A M S C A P E   D I A R I E S</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dreams and Meanings</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+ 
+  <div class="top-bar">
+    <div class="website-name">
+      <h2>Dreamscape Diaries</h2>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a> 
+    </div>
+  </div>
 
-  <body>
-    <!-- All the content of the webpage -->
+  <header>
+    <h1>Dreams and Meanings</h1>
+    <div class="intro">
+      <p>Welcome to the fascinating world of dreams! Explore the meanings behind your dreams, track your nightly adventures, and learn fun facts about the dream world.</p>
+    </div>
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Search...">
+      <button onclick="searchFunction()">Search</button>
+    </div>
+    <document.getElementById('search-bar').addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {  // Check if the Enter key is pressed
+        searchFunction();
+  </header>
 
-<h2>Explore the Meaning, Power, and Magic of Dreams</h2>
-<p>Welcome to Dreamscape Diaries—where dreams come to life! Ever woken up feeling lost and alone, stuck between sleep and reality? Our video explores that strange moment, while our site uncovers dream meanings, fun facts, and can even help you journal your dreams! Dive in and start decoding the mysteries of your mind!</p>
-
-
-<video width="320" height="240" controls>
-  <source src="websitevideo362.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-</body>
-</html>
+  <main>
+    <section class="grid-container">
+      <div class="left-section">
+        <a href="calendar.html" class="corner calendar">
+          <i class="fas fa-calendar-alt"></i>
+          <p>Calendar</p>
+        </a>
+        <a href="dream meanings.html" class="corner dream-meanings">
+          <i class="fas fa-book-open"></i>
+          <p>Dream Meanings</p>
+        </a>
+      </div>
 
     
+    <section class="center-content">
+  <div class="video-container">
+    <video width="1200" height="800" controls>
+      <source src="dream website video - HD 720p 2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-subtitle">Watch this video to experience the feeling of dreaming of being nowhere</div>
+  </div>
+</section>
+
+ 
+
+      </section>
+      <div class="right-section">
+        <a href="flashcards.html" class="corner flashcards">
+          <i class="fas fa-chalkboard-teacher"></i>
+          <p>Flashcards</p>
+        </a>
+        <a href="journal.html" class="corner journal">
+          <i class="fas fa-pencil-alt"></i>
+          <p>Journal</p>
+        </a>
+      </div>
+    </section>
+  </main>
+  <script src="search bar.js"></script>
+</body>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <footer>
+    <p>&copy; 2025 Dreams & Meanings. All rights reserved.</p>
+  </footer>
+</body>
+</html>
