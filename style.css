@@ -126,7 +126,7 @@ main {
 }
 
 video {
-  max-width: 80%;  /* You can adjust this value to make the video bigger or smaller */
+  max-width: 80%;  
   height: auto;
 }
 
