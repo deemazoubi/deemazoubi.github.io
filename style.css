@@ -118,26 +118,42 @@ main {
   flex-direction: column;
 }
 
-video {
-  width: 50vw; 
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin-left: 45px;
-  margin-right: 60px; 
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; /* Ensures it fills the height of the page */
 }
 
-
-.corner-links {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  width: 80%;
-  height: 100%;
-  justify-items: center;
+.video-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  grid-gap: 50px;
-  margin-left: -50px; 
+  padding: 20px;
+  background-color: #4c3c92;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-link button {
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.video-link button:hover {
+  color: #f3c1f7;
+  transform: translateY(-5px);
+}
+
+.video-link button:focus {
+  outline: none;
+}
+ 
 }
 
 .corner {
