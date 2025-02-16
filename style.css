@@ -119,14 +119,15 @@ main {
 }
 
 video {
-  width: 80%; /* Adjust the width to make the video larger */
-  max-width: 1200px; /* Optionally set a maximum width to prevent it from getting too large */
-  height: auto; /* Keep the aspect ratio intact */
+  width: 80%; 
+  max-width: 1200px;
+  height: auto; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-left: auto;
-  margin-right: auto; /* Center the video horizontally */
-  display: block; /* Ensure it's treated as a block element for proper centering */
+  margin-right: auto;
+  display: block; 
+
 }
 
 
