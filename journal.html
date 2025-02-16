@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Journal</title>
+  <link rel="stylesheet" href="journal.css">
+</head>
+<body>
+  <header>
+    <h1>Dream Journal</h1>
+    <p>Write down your dreams and save them to reflect upon later.</p>
+  </header>
+
+  <section class="journal-section">
+    <form id="dream-form">
+      <label for="dream-entry">Dream Entry:</label><br>
+      <textarea id="dream-entry" rows="5" cols="40" placeholder="Write your dream here..."></textarea><br>
+      <button type="submit">Save Dream</button>
+    </form>
+    <div id="saved-dreams">
+      <h2>Your Saved Dreams:</h2>
+      <div id="dream-list">
+     
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dreams & Meanings</p>
+  </footer>
+
+  
+  <script src="journal.js"></script>
+</body>
+</html>
